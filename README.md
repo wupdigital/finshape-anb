@@ -14,7 +14,7 @@ MoneyStories SDK is a delightful component for show stories provided by Finshape
 - Run the following command:
 
 ```shell
-    cordova plugin add https://github.com/pcamilojunior/cordova-moneystories-plugin.git
+    cordova plugin add https://github.com/os-adv-dev/cordova-moneystories-plugin.git
 ``` 
 
 # MoneyStories Plugin
@@ -146,7 +146,7 @@ Observations:
 ### Story View screenshot
 
 <p align="left">
-  <img src="https://github.com/pcamilojunior/cordova-moneystories-plugin/blob/master/screenshot.PNG" width="350" title="Screenshot Stories">
+  <img src="https://github.com/os-adv-dev/cordova-moneystories-plugin/blob/master/screenshot.PNG" width="350" title="Screenshot Stories">
 </p>
 
 
