@@ -36,11 +36,14 @@ public class MoneyStoriesPlugin extends CordovaPlugin {
     private final String ACTION_REFRESH_TOKEN = "refreshToken";
     private final String ACTION_OPEN_STORIES = "openStories";
 
+    private final String MORE_ACTION = "MORE";
     private String baseUrl;
     private String accessToken;
     private String languageCode;
     private String customerId;
     private MoneyStories moneyStories;
+
+    private static int STORY_SCREEN_CODE_RESULT = 2003;
 
     private final Handler handler = new Handler(Looper.getMainLooper());
 
@@ -186,13 +189,19 @@ public class MoneyStoriesPlugin extends CordovaPlugin {
         try {
             if (args.length() > 0) {
                 JSONObject object = (JSONObject) args.get(0);
+
                 if (!object.has("period") || !object.has("date")) {
                     this.callbackContext.error("Fields period or date is not present or invalid!");
                 }
 
-                String period = (String) object.get("period");
-                String date = (String) object.get("date");
-                prepareParamsToOpenStories(period, date);
+                if (object.has("period") && object.get("period").equals(MORE_ACTION)) {
+                    StoryLineBaseModel baseLineToMoreOption = new StoryLineBaseModel();
+                    triggerStoryAct(baseLineToMoreOption);
+                } else {
+                    String period = (String) object.get("period");
+                    String date = (String) object.get("date");
+                    prepareParamsToOpenStories(period, date);
+                }
             } else {
                 callbackContext.error("Fields to open the stories not present or invalid!");
             }
@@ -216,7 +225,14 @@ public class MoneyStoriesPlugin extends CordovaPlugin {
     private void triggerStoryAct(StoryLineBaseModel data) {
         Intent intent = new Intent(this.cordova.getContext(), MoneyStoriesActivity.class);
         intent.putExtra(StoryBarView.INTENT_SELECTED_ITEM, data);
-        this.cordova.getContext().startActivity(intent);
+        this.cordova.startActivityForResult(this, intent, STORY_SCREEN_CODE_RESULT);
+    }
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent intent) {
+        if (requestCode == STORY_SCREEN_CODE_RESULT) {
+            callbackContext.success();
+        }
     }
 
     private StoryBarViewModel initViewModel() {
