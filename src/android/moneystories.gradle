@@ -65,7 +65,7 @@ dependencies {
     implementation "com.facebook.shimmer:shimmer:0.5.0"
 
     implementation files("libs/moneystories-1.2.0-5.aar")
-    implementation files("libs/moneystories-api-gateway-android.aar")
+    implementation files("libs/api-gateway-api-android-1.10.0.aar")
 }
 
 // Changing compileSdkVersion to use in MoneyStories
