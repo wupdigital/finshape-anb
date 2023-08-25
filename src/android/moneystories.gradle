@@ -64,7 +64,7 @@ dependencies {
     implementation 'com.github.bumptech.glide:glide:4.14.2'
     implementation "com.facebook.shimmer:shimmer:0.5.0"
 
-    implementation files("libs/moneystories-1.2.0-11.aar")
+    implementation files("libs/moneystories-1.2.0-12.aar")
     implementation files("libs/api-gateway-api-android-1.10.0.aar")
 }
 
