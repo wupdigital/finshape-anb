@@ -208,7 +208,8 @@ public class MoneyStoriesPlugin extends CordovaPlugin {
                 } else {
                     String period = (String) object.get("period");
                     String date = (String) object.get("date");
-                    prepareParamsToOpenStories(period, date);
+                    Boolean read = (Boolean) object.get("read");
+                    prepareParamsToOpenStories(period, date, read);
                 }
             } else {
                 callbackContext.error("Fields to open the stories not present or invalid!");
@@ -218,13 +219,13 @@ public class MoneyStoriesPlugin extends CordovaPlugin {
         }
     }
 
-    private void prepareParamsToOpenStories(String periodType, String date) {
+    private void prepareParamsToOpenStories(String periodType, String date, Boolean read) {
         try {
 
             PeriodTypeModel periodTypeModel = PeriodTypeModel.valueOf(periodType);
             LocalDate dateParsed = LocalDate.parse(date);
 
-            triggerStoryAct(new StoryLineModel(dateParsed, periodTypeModel, true));
+            triggerStoryAct(new StoryLineModel(dateParsed, periodTypeModel, read));
         } catch (Exception exception) {
             this.callbackContext.error("Fields period or date are not valid!");
         }
