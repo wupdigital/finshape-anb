@@ -50,7 +50,7 @@
 
         <source-file src="src/android/MoneyStoriesPlugin.java" target-dir="src/com/outsystems/moneystories/plugin" />
         <framework src="src/android/moneystories.gradle" custom="true" type="gradleReference" />
-        <lib-file src="src/android/libs/moneystories-anb-debug.aar" target="libs/moneystories-anb-debug.aar" />
+        <lib-file src="src/android/libs/moneystories-anb-release.aar" target="libs/moneystories-anb-release.aar" />
         <lib-file src="src/android/libs/api-gateway-api-android-1.12.0.aar"
             target="libs/api-gateway-api-android-1.12.0.aar" />
 
