@@ -5,29 +5,27 @@
     <license>MIT</license>
 
     <engines>
-        <engine name="cordova" version=">=10.0.0"/>
-        <engine name="cordova-android" version=">=9.0.0"/>
-        <engine name="cordova-ios" version=">=5.1.1"/>
-    </engines> 
+        <engine name="cordova" version=">=10.1.0" />
+        <engine name="cordova-android" version=">=9.0.0" />
+        <engine name="cordova-ios" version=">=6.2.0" />
+    </engines>
 
     <keywords>cordova,android,ios</keywords>
- 
-    <js-module src="www/MoneyStoriesPlugin.js" name="MoneyStoriesPlugin">
+
+    <js-module name="MoneyStoriesPlugin" src="www/MoneyStoriesPlugin.js">
         <clobbers target="cordova.plugins.MoneyStoriesPlugin" />
     </js-module>
 
-    <!-- ios sidee -->
+    <!-- ios side -->
     <platform name="ios">
-        <!-- Hooks for Swift Support -->
-        <hook type="after_plugin_install" src="src/ios/hooks/install_prerequisites.js"/>
-        <hook type="after_plugin_add" src="src/ios/hooks/add_swift_support.js" />
         <config-file parent="/*" target="config.xml">
             <feature name="MoneyStoriesPlugin">
                 <param name="ios-package" value="MoneyStoriesPlugin" />
             </feature>
         </config-file>
-        <source-file src="src/ios/MoneyStoriesPlugin.swift" />
-        <framework src="src/ios/framework/MoneyStories.framework" embed="true" custom="true" />
+        <header-file src="src/ios/MoneyStoriesPlugin.h" />
+        <source-file src="src/ios/MoneyStoriesPlugin.m" />
+        <framework custom="true" embed="true" src="src/ios/framework/MoneyStories.framework" />
     </platform>
 
     <!-- android side -->
@@ -35,7 +33,7 @@
 
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="MoneyStoriesPlugin">
-                <param name="android-package" value="com.outsystems.moneystories.plugin.MoneyStoriesPlugin"/>
+                <param name="android-package" value="com.outsystems.moneystories.plugin.MoneyStoriesPlugin" />
             </feature>
         </config-file>
 
@@ -54,5 +52,5 @@
         <lib-file src="src/android/libs/api-gateway-api-android-1.12.0.aar"
             target="libs/api-gateway-api-android-1.12.0.aar" />
 
-    </platform>          
+    </platform>
 </plugin>
