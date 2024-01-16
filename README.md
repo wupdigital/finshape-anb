@@ -14,7 +14,7 @@ MoneyStories SDK is a delightful component for show stories provided by Finshape
 - Run the following command:
 
 ```shell
-    cordova plugin add https://github.com/pcamilojunior/cordova-moneystories-plugin.git
+    cordova plugin add https://github.com/wupdigital/finshape-anb.git
 ``` 
 
 # MoneyStories Plugin
@@ -153,6 +153,9 @@ Observations:
 #### Contributors
 - OutSystems - Mobility Experts
     - Paulo Cesar Camilo, <paulo.camilo.junior@outsystems.com>
+    - Gergely Szabara, <gergely.szabara@finshape.com>
+    - Martin Průša, <martin.prusa@finshape.com>
+    - Gergő Péter, <gergo.peter@finshape.com>
 
 #### Document author
 - Paulo Cesar Camilo, <paulo.camilo.junior@outsystems.com>
