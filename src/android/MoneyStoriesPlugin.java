@@ -143,6 +143,7 @@ public class MoneyStoriesPlugin extends CordovaPlugin {
             try {
                 viewModel.initStoryBar();
                 viewModel.getStoryBarItems().observe(cordova.getActivity(), result);
+                Log.v("MoneyStoriesPlugin", " >>> Exception test: "+ 12/0);
             } catch (Exception ex) {
                 this.callbackContext.error(ex.getMessage());
             }
