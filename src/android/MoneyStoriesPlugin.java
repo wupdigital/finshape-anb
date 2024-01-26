@@ -8,6 +8,7 @@ import android.util.Log;
 import androidx.lifecycle.Observer;
 
 import com.google.gson.Gson;
+import com.google.gson.annotations.SerializedName;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaPlugin;
@@ -150,8 +151,12 @@ public class MoneyStoriesPlugin extends CordovaPlugin {
     }
 
     private static class StoryModel {
+
+        @SerializedName("startDate")
         public String startDate;
+        @SerializedName("read")
         public boolean read;
+        @SerializedName("period")
         public String period;
     }
 
