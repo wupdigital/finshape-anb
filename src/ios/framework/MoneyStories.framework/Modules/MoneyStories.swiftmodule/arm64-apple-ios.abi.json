@@ -25337,22 +25337,15 @@
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/TransactionalInsights\/DoubleCharge\/View\/DoubleChargeViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 2744,
-      "length": 3,
-      "value": "0.3"
-    },
-    {
-      "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/TransactionalInsights\/DoubleCharge\/View\/DoubleChargeViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2928,
+      "offset": 2930,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/TransactionalInsights\/DoubleCharge\/View\/DoubleChargeViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2976,
+      "offset": 2978,
       "length": 9,
       "value": "\"#021526\""
     },
