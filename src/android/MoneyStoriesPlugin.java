@@ -114,7 +114,7 @@ public class MoneyStoriesPlugin extends CordovaPlugin {
         Observer<List<RowViewModel<StoryLineBaseModel>>> result = items -> {
             List<StoryModel> stories = new ArrayList<>();
 
-            if (!items.isEmpty()) {
+            if (items.isEmpty()) {
                 Log.v("MoneyStoriesPlugin", " >>> Result Stories: No stories to display");
                 String resultJson = new Gson().toJson(stories);
                 callbackContext.success(resultJson);
