@@ -112,13 +112,14 @@ public class MoneyStoriesPlugin extends CordovaPlugin {
         StoryBarViewModel viewModel = initViewModel();
         Log.v("MoneyStoriesPlugin", " >>> ViewModel initialised: "+ viewModel.toString());
         Observer<List<RowViewModel<StoryLineBaseModel>>> result = items -> {
+            List<StoryModel> stories = new ArrayList<>();
 
-            if (items.isEmpty()) {
-                callbackContext.error("No stories to display");
+            if (!items.isEmpty()) {
+                Log.v("MoneyStoriesPlugin", " >>> Result Stories: No stories to display");
+                String resultJson = new Gson().toJson(stories);
+                callbackContext.success(resultJson);
             } else {
                 try {
-                    List<StoryModel> stories = new ArrayList<>();
-
                     for (RowViewModel<StoryLineBaseModel> item : items) {
                         if (item.getItem() instanceof StoryLineModel) {
 
