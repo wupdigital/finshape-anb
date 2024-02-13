@@ -16259,98 +16259,126 @@
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/Language\/LanguageManager.swift",
       "kind": "StringLiteral",
-      "offset": 562,
+      "offset": 604,
       "length": 29,
       "value": "\"MStoriesSelectedLanguageKey\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/Language\/LanguageManager.swift",
       "kind": "Dictionary",
-      "offset": 699,
+      "offset": 741,
       "length": 46,
       "value": "[(\"en-US\", \"en\"), (\"ar-SA\", \"ar\"), (\"es\", \"es_SV\")]"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/Language\/LanguageManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1115,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/Language\/LanguageManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1141,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/Language\/LanguageManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1182,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/Language\/LanguageManager.swift",
+      "kind": "Array",
+      "offset": 1429,
+      "length": 74,
+      "value": "[\"ar\", \"arc\", \"dv\", \"fa\", \"ha\", \"he\", \"khw\", \"ks\", \"ku\", \"ps\", \"ur\", \"yi\"]"
+    },
+    {
+      "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/Language\/LanguageManager.swift",
       "kind": "StringLiteral",
-      "offset": 1544,
+      "offset": 1919,
       "length": 4,
       "value": "\"en\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/Language\/LanguageManager.swift",
       "kind": "StringLiteral",
-      "offset": 2380,
+      "offset": 2755,
       "length": 5,
       "value": "\"\\n\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/Language\/LanguageManager.swift",
       "kind": "StringLiteral",
-      "offset": 2393,
+      "offset": 2768,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/Language\/LanguageManager.swift",
       "kind": "StringLiteral",
-      "offset": 3985,
+      "offset": 4360,
       "length": 9,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/Language\/LanguageManager.swift",
       "kind": "StringLiteral",
-      "offset": 3993,
+      "offset": 4368,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/Language\/LanguageManager.swift",
       "kind": "StringLiteral",
-      "offset": 4657,
+      "offset": 5032,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/Language\/LanguageManager.swift",
       "kind": "StringLiteral",
-      "offset": 5931,
+      "offset": 6306,
       "length": 3,
       "value": "\"=\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/Language\/LanguageManager.swift",
       "kind": "StringLiteral",
-      "offset": 6041,
+      "offset": 6416,
       "length": 3,
       "value": "\"=\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/Language\/LanguageManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 6081,
+      "offset": 6456,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/Language\/LanguageManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 6093,
+      "offset": 6468,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/Language\/LanguageManager.swift",
       "kind": "StringLiteral",
-      "offset": 6195,
+      "offset": 6570,
       "length": 42,
       "value": "\"Failed to load the default resource file\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/Language\/LanguageManager.swift",
       "kind": "Dictionary",
-      "offset": 6273,
+      "offset": 6648,
       "length": 3,
       "value": "[]"
     },
@@ -22264,24 +22292,24 @@
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/DataFormatting\/Formatters\/CurrencyFormatter.swift",
-      "kind": "Array",
-      "offset": 2423,
-      "length": 15,
-      "value": "[\"en\", \"en-US\"]"
+      "kind": "StringLiteral",
+      "offset": 2540,
+      "length": 4,
+      "value": "\"en\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/DataFormatting\/Formatters\/CurrencyFormatter.swift",
       "kind": "StringLiteral",
-      "offset": 2519,
-      "length": 7,
-      "value": "\"pt_PT\""
+      "offset": 2586,
+      "length": 13,
+      "value": "\"#,##0.00 ¤\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/DataFormatting\/Formatters\/CurrencyFormatter.swift",
       "kind": "StringLiteral",
-      "offset": 2597,
-      "length": 7,
-      "value": "\"pt_PT\""
+      "offset": 2639,
+      "length": 14,
+      "value": "\"-#,##0.00 ¤\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/TransactionalInsights\/OutlierTransaction\/View\/OutlierTransactionViewController.swift",
@@ -22867,7 +22895,7 @@
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/SDK\/Interface\/MoneyStories.swift",
       "kind": "StringLiteral",
-      "offset": 2490,
+      "offset": 2816,
       "length": 4,
       "value": "\"en\""
     },
@@ -22881,63 +22909,63 @@
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/SDK\/Interface\/MoneyStories.swift",
       "kind": "StringLiteral",
-      "offset": 2769,
+      "offset": 3095,
       "length": 84,
       "value": "\"Config initialization failed. Check if all required config parameter has been set.\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/SDK\/Interface\/MoneyStories.swift",
       "kind": "BooleanLiteral",
-      "offset": 3079,
+      "offset": 3405,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/SDK\/Interface\/MoneyStories.swift",
       "kind": "StringLiteral",
-      "offset": 3561,
+      "offset": 3887,
       "length": 6,
       "value": "\"MORE\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/SDK\/Interface\/MoneyStories.swift",
       "kind": "StringLiteral",
-      "offset": 3792,
+      "offset": 4118,
       "length": 105,
       "value": "\"Invalid notification parameters format. Date must be in \"2022-02-01\" and period in \"MONTHLY\" format\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/SDK\/Interface\/MoneyStories.swift",
       "kind": "StringLiteral",
-      "offset": 3992,
+      "offset": 4318,
       "length": 99,
       "value": "\"Handle Notification failed: StorybarView must be loaded first. (startLoading called and finished)\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/SDK\/Interface\/MoneyStories.swift",
       "kind": "FloatLiteral",
-      "offset": 4201,
+      "offset": 4527,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/SDK\/Interface\/MoneyStories.swift",
       "kind": "BooleanLiteral",
-      "offset": 4772,
+      "offset": 5098,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/SDK\/Interface\/MoneyStories.swift",
       "kind": "FloatLiteral",
-      "offset": 4915,
+      "offset": 5241,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/SDK\/Interface\/MoneyStories.swift",
       "kind": "BooleanLiteral",
-      "offset": 5305,
+      "offset": 5631,
       "length": 4,
       "value": "true"
     },
