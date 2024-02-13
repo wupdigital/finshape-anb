@@ -141,6 +141,13 @@ public class MoneyStoriesPlugin extends CordovaPlugin {
             }
         };
 
+        Observer<Boolean> isError = error -> {
+            if (error) {
+                Log.v("MoneyStoriesPlugin", " >>> Error during get preload call");
+                callbackContext.error("Error to load the stories");
+            }
+        };
+
         handler.post(() -> {
             try {
                 viewModel.initStoryBar();
