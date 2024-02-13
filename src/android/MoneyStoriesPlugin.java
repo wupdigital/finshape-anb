@@ -141,8 +141,8 @@ public class MoneyStoriesPlugin extends CordovaPlugin {
             }
         };
 
-        Observer<Boolean> isError = error -> {
-            if (error) {
+        Observer<Boolean> error = isError -> {
+            if (isError) {
                 Log.v("MoneyStoriesPlugin", " >>> Error during get preload call");
                 callbackContext.error("Error to load the stories");
             }
@@ -152,7 +152,7 @@ public class MoneyStoriesPlugin extends CordovaPlugin {
             try {
                 viewModel.initStoryBar();
                 viewModel.getStoryBarItems().observe(cordova.getActivity(), result);
-                viewModel.getIsError().observe(cordova.getActivity(), isError);
+                viewModel.isError().observe(cordova.getActivity(), error);
             } catch (Exception ex) {
                 this.callbackContext.error(ex.getMessage());
             }
