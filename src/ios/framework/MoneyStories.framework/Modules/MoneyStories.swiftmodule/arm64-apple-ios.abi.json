@@ -26870,91 +26870,98 @@
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Expectations\/ExpectedIncome\/ViewModel\/ExpectedIncomeViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 782,
+      "offset": 724,
+      "length": 11,
+      "value": "\"startDate\""
+    },
+    {
+      "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Expectations\/ExpectedIncome\/ViewModel\/ExpectedIncomeViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 808,
       "length": 44,
       "value": "\"expectationsExpectedIncome_WeeklyMainTitle\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Expectations\/ExpectedIncome\/ViewModel\/ExpectedIncomeViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 900,
+      "offset": 926,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Expectations\/ExpectedIncome\/ViewModel\/ExpectedIncomeViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 1026,
+      "offset": 1052,
       "length": 43,
       "value": "\"expectationsExpectedIncome_MonthlyMessage\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Expectations\/ExpectedIncome\/ViewModel\/ExpectedIncomeViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 1147,
+      "offset": 1173,
       "length": 42,
       "value": "\"expectationsExpectedIncome_WeeklyMessage\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Expectations\/ExpectedIncome\/ViewModel\/ExpectedIncomeViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 1263,
+      "offset": 1289,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Expectations\/ExpectedIncome\/ViewModel\/ExpectedIncomeViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 1388,
+      "offset": 1414,
       "length": 44,
       "value": "\"expectationsExpectedIncome_MonthlyExpected\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Expectations\/ExpectedIncome\/ViewModel\/ExpectedIncomeViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 1510,
+      "offset": 1536,
       "length": 43,
       "value": "\"expectationsExpectedIncome_WeeklyExpected\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Expectations\/ExpectedIncome\/ViewModel\/ExpectedIncomeViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 1627,
+      "offset": 1653,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Expectations\/ExpectedIncome\/ViewModel\/ExpectedIncomeViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1734,
+      "offset": 1760,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Expectations\/ExpectedIncome\/ViewModel\/ExpectedIncomeViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 1917,
+      "offset": 1943,
       "length": 48,
       "value": "\"expectationsExpectedIncome_WeeklyTotalExpected\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Expectations\/ExpectedIncome\/ViewModel\/ExpectedIncomeViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2039,
+      "offset": 2065,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Expectations\/ExpectedIncome\/ViewModel\/ExpectedIncomeViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 2152,
+      "offset": 2178,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Expectations\/ExpectedIncome\/ViewModel\/ExpectedIncomeViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2524,
+      "offset": 2550,
       "length": 11,
       "value": "\"startDate\""
     }
