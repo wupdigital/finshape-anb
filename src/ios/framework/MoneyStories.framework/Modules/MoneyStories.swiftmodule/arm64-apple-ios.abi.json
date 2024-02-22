@@ -26,6 +26,16 @@
       },
       {
         "kind": "Import",
+        "name": "Swinject",
+        "printedName": "Swinject",
+        "declKind": "Import",
+        "moduleName": "MoneyStories",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -4655,6 +4665,16 @@
       },
       {
         "kind": "Import",
+        "name": "Swinject",
+        "printedName": "Swinject",
+        "declKind": "Import",
+        "moduleName": "MoneyStories",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -7978,63 +7998,63 @@
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/TransactionalInsights\/IncomeNotArrived\/View\/IncomeNotArrivedViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 855,
+      "offset": 892,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/TransactionalInsights\/IncomeNotArrived\/View\/IncomeNotArrivedViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1636,
+      "offset": 2062,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/TransactionalInsights\/IncomeNotArrived\/View\/IncomeNotArrivedViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1706,
+      "offset": 2132,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/TransactionalInsights\/IncomeNotArrived\/View\/IncomeNotArrivedViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1778,
+      "offset": 2204,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/TransactionalInsights\/IncomeNotArrived\/View\/IncomeNotArrivedViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1815,
+      "offset": 2241,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/TransactionalInsights\/IncomeNotArrived\/View\/IncomeNotArrivedViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1855,
+      "offset": 2281,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/TransactionalInsights\/IncomeNotArrived\/View\/IncomeNotArrivedViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1892,
+      "offset": 2318,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/TransactionalInsights\/IncomeNotArrived\/View\/IncomeNotArrivedViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1935,
+      "offset": 2361,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/TransactionalInsights\/IncomeNotArrived\/View\/IncomeNotArrivedViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1972,
+      "offset": 2398,
       "length": 3,
       "value": "0.3"
     },
@@ -15790,58 +15810,79 @@
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Extensions\/Foundation\/String+Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 1745,
+      "offset": 1741,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Extensions\/Foundation\/String+Extensions.swift",
       "kind": "IntegerLiteral",
-      "offset": 1790,
+      "offset": 1785,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Extensions\/Foundation\/String+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 1838,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Extensions\/Foundation\/String+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 1849,
+      "length": 5,
+      "value": "\"-\n\""
+    },
+    {
+      "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Extensions\/Foundation\/String+Extensions.swift",
       "kind": "IntegerLiteral",
-      "offset": 1817,
+      "offset": 1894,
       "length": 1,
-      "value": "0"
+      "value": "2"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Extensions\/Foundation\/String+Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 1822,
-      "length": 31,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Extensions\/Foundation\/String+Extensions.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1841,
-      "length": 1,
-      "value": "0"
+      "offset": 1947,
+      "length": 3,
+      "value": "\" \""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Extensions\/Foundation\/String+Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 1847,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Extensions\/Foundation\/String+Extensions.swift",
-      "kind": "StringLiteral",
-      "offset": 1850,
-      "length": 1,
+      "offset": 1958,
+      "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Extensions\/Foundation\/String+Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 1902,
+      "offset": 2116,
       "length": 3,
       "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Extensions\/Foundation\/String+Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2161,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Extensions\/Foundation\/String+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 2214,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Extensions\/Foundation\/String+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 2225,
+      "length": 4,
+      "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/SpendingOverview\/Averages\/ViewModel\/SpendingAverageViewModel.swift",
@@ -15937,182 +15978,182 @@
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/SpendingOverview\/Averages\/ViewModel\/SpendingAverageViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2071,
+      "offset": 2094,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/SpendingOverview\/Averages\/ViewModel\/SpendingAverageViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2158,
+      "offset": 2203,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/SpendingOverview\/Averages\/ViewModel\/SpendingAverageViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2198,
+      "offset": 2243,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/SpendingOverview\/Averages\/ViewModel\/SpendingAverageViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2325,
+      "offset": 2370,
       "length": 40,
       "value": "\"spendingOverviewAverage_MonthlyAverage\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/SpendingOverview\/Averages\/ViewModel\/SpendingAverageViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2443,
+      "offset": 2488,
       "length": 39,
       "value": "\"spendingOverviewAverage_WeeklyAverage\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/SpendingOverview\/Averages\/ViewModel\/SpendingAverageViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2555,
+      "offset": 2600,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/SpendingOverview\/Averages\/ViewModel\/SpendingAverageViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2682,
+      "offset": 2727,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/SpendingOverview\/Averages\/ViewModel\/SpendingAverageViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 2729,
+      "offset": 2774,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/SpendingOverview\/Averages\/ViewModel\/SpendingAverageViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2752,
+      "offset": 2797,
       "length": 36,
       "value": "\"spendingOverviewAverage_EarnedMore\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/SpendingOverview\/Averages\/ViewModel\/SpendingAverageViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 2858,
+      "offset": 2903,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/SpendingOverview\/Averages\/ViewModel\/SpendingAverageViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2881,
+      "offset": 2926,
       "length": 36,
       "value": "\"spendingOverviewAverage_EarnedSame\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/SpendingOverview\/Averages\/ViewModel\/SpendingAverageViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2990,
+      "offset": 3035,
       "length": 36,
       "value": "\"spendingOverviewAverage_EarnedLess\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/SpendingOverview\/Averages\/ViewModel\/SpendingAverageViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 3189,
+      "offset": 3234,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/SpendingOverview\/Averages\/ViewModel\/SpendingAverageViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 3237,
+      "offset": 3282,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/SpendingOverview\/Averages\/ViewModel\/SpendingAverageViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 3260,
+      "offset": 3305,
       "length": 35,
       "value": "\"spendingOverviewAverage_SpentMore\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/SpendingOverview\/Averages\/ViewModel\/SpendingAverageViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 3366,
+      "offset": 3411,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/SpendingOverview\/Averages\/ViewModel\/SpendingAverageViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 3389,
+      "offset": 3434,
       "length": 35,
       "value": "\"spendingOverviewAverage_SpentSame\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/SpendingOverview\/Averages\/ViewModel\/SpendingAverageViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 3497,
+      "offset": 3542,
       "length": 35,
       "value": "\"spendingOverviewAverage_SpentLess\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/SpendingOverview\/Averages\/ViewModel\/SpendingAverageViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 3784,
+      "offset": 3829,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/SpendingOverview\/Averages\/ViewModel\/SpendingAverageViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 3844,
+      "offset": 3889,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/SpendingOverview\/Averages\/ViewModel\/SpendingAverageViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 4134,
+      "offset": 4179,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/SpendingOverview\/Averages\/ViewModel\/SpendingAverageViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 4195,
+      "offset": 4240,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/SpendingOverview\/Averages\/ViewModel\/SpendingAverageViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 4932,
+      "offset": 4977,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/SpendingOverview\/Averages\/ViewModel\/SpendingAverageViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 5887,
+      "offset": 5932,
       "length": 11,
       "value": "\"startDate\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/SpendingOverview\/Averages\/ViewModel\/SpendingAverageViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 6033,
+      "offset": 6078,
       "length": 13,
       "value": "\"incomeDelta\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/SpendingOverview\/Averages\/ViewModel\/SpendingAverageViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 6109,
+      "offset": 6154,
       "length": 14,
       "value": "\"expenseDelta\""
     },
@@ -17204,168 +17245,168 @@
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Expectations\/CashOutFlow\/ViewModel\/CashOutFlowViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2709,
+      "offset": 2722,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Expectations\/CashOutFlow\/ViewModel\/CashOutFlowViewModel.swift",
       "kind": "Array",
-      "offset": 2820,
+      "offset": 2833,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Expectations\/CashOutFlow\/ViewModel\/CashOutFlowViewModel.swift",
       "kind": "Array",
-      "offset": 2936,
+      "offset": 2949,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Expectations\/CashOutFlow\/ViewModel\/CashOutFlowViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 3422,
+      "offset": 3435,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Expectations\/CashOutFlow\/ViewModel\/CashOutFlowViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 3811,
+      "offset": 3824,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Expectations\/CashOutFlow\/ViewModel\/CashOutFlowViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 3877,
+      "offset": 3890,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Expectations\/CashOutFlow\/ViewModel\/CashOutFlowViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 4051,
+      "offset": 4064,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Expectations\/CashOutFlow\/ViewModel\/CashOutFlowViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 4123,
+      "offset": 4136,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Expectations\/CashOutFlow\/ViewModel\/CashOutFlowViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 4265,
+      "offset": 4278,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Expectations\/CashOutFlow\/ViewModel\/CashOutFlowViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 4514,
+      "offset": 4527,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Expectations\/CashOutFlow\/ViewModel\/CashOutFlowViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 4613,
+      "offset": 4626,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Expectations\/CashOutFlow\/ViewModel\/CashOutFlowViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 4959,
+      "offset": 4972,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Expectations\/CashOutFlow\/ViewModel\/CashOutFlowViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 5354,
+      "offset": 5363,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Expectations\/CashOutFlow\/ViewModel\/CashOutFlowViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 6466,
+      "offset": 6475,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Expectations\/CashOutFlow\/ViewModel\/CashOutFlowViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 6768,
+      "offset": 6777,
       "length": 8,
       "value": "\"0072DA\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Expectations\/CashOutFlow\/ViewModel\/CashOutFlowViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 6833,
+      "offset": 6842,
       "length": 8,
       "value": "\"81B9ED\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Expectations\/CashOutFlow\/ViewModel\/CashOutFlowViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 6892,
+      "offset": 6901,
       "length": 8,
       "value": "\"021526\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Expectations\/CashOutFlow\/ViewModel\/CashOutFlowViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 6962,
+      "offset": 6971,
       "length": 8,
       "value": "\"1E93FF\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Expectations\/CashOutFlow\/ViewModel\/CashOutFlowViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 7252,
+      "offset": 7261,
       "length": 11,
       "value": "\"startDate\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Expectations\/CashOutFlow\/ViewModel\/CashOutFlowViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 7293,
+      "offset": 7302,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Expectations\/CashOutFlow\/ViewModel\/CashOutFlowViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 7313,
+      "offset": 7322,
       "length": 13,
       "value": "\"diffPercent\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Expectations\/CashOutFlow\/ViewModel\/CashOutFlowViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 7357,
+      "offset": 7366,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Expectations\/CashOutFlow\/ViewModel\/CashOutFlowViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 7377,
+      "offset": 7386,
       "length": 12,
       "value": "\"periodDate\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Expectations\/CashOutFlow\/ViewModel\/CashOutFlowViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 7878,
+      "offset": 7887,
       "length": 2,
       "value": "\"\""
     },
@@ -18582,22 +18623,43 @@
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Expectations\/CashOutFlow\/View\/Charts\/ChartsLeftAxisFormatter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 790,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Expectations\/CashOutFlow\/View\/Charts\/ChartsLeftAxisFormatter.swift",
       "kind": "StringLiteral",
-      "offset": 528,
+      "offset": 974,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Expectations\/CashOutFlow\/View\/Charts\/ChartsLeftAxisFormatter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1076,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Expectations\/CashOutFlow\/View\/Charts\/ChartsLeftAxisFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 1164,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Expectations\/CashOutFlow\/View\/Charts\/ChartsLeftAxisFormatter.swift",
       "kind": "StringLiteral",
-      "offset": 619,
-      "length": 41,
+      "offset": 1211,
+      "length": 52,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Expectations\/CashOutFlow\/View\/Charts\/ChartsLeftAxisFormatter.swift",
       "kind": "StringLiteral",
-      "offset": 659,
+      "offset": 1262,
       "length": 1,
       "value": "\"\""
     },
@@ -22293,35 +22355,28 @@
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/DataFormatting\/Formatters\/CurrencyFormatter.swift",
       "kind": "StringLiteral",
-      "offset": 2540,
-      "length": 4,
-      "value": "\"en\""
+      "offset": 2534,
+      "length": 15,
+      "value": "\"#,##0.00 ¤¤\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/DataFormatting\/Formatters\/CurrencyFormatter.swift",
       "kind": "StringLiteral",
-      "offset": 2586,
-      "length": 13,
-      "value": "\"#,##0.00 ¤\""
+      "offset": 2585,
+      "length": 16,
+      "value": "\"-#,##0.00 ¤¤\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/DataFormatting\/Formatters\/CurrencyFormatter.swift",
       "kind": "StringLiteral",
-      "offset": 2639,
-      "length": 14,
-      "value": "\"-#,##0.00 ¤\""
-    },
-    {
-      "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/DataFormatting\/Formatters\/CurrencyFormatter.swift",
-      "kind": "StringLiteral",
-      "offset": 2718,
+      "offset": 2647,
       "length": 3,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/DataFormatting\/Formatters\/CurrencyFormatter.swift",
       "kind": "StringLiteral",
-      "offset": 2768,
+      "offset": 2697,
       "length": 3,
       "value": "\",\""
     },
@@ -26157,154 +26212,161 @@
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Travels\/TravelStats\/View\/TravelStatsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2675,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Travels\/TravelStats\/View\/TravelStatsViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2708,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Travels\/TravelStats\/View\/TravelStatsViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2788,
+      "offset": 2637,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Travels\/TravelStats\/View\/TravelStatsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2821,
+      "offset": 2723,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Travels\/TravelStats\/View\/TravelStatsViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2756,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Travels\/TravelStats\/View\/TravelStatsViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2836,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Travels\/TravelStats\/View\/TravelStatsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2901,
+      "offset": 2869,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Travels\/TravelStats\/View\/TravelStatsViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2949,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Travels\/TravelStats\/View\/TravelStatsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2934,
+      "offset": 2982,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Travels\/TravelStats\/View\/TravelStatsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3048,
+      "offset": 3096,
       "length": 8,
       "value": "\"FCDB7B\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Travels\/TravelStats\/View\/TravelStatsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3103,
+      "offset": 3151,
       "length": 8,
       "value": "\"0072DA\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Travels\/TravelStats\/View\/TravelStatsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3158,
+      "offset": 3206,
       "length": 8,
       "value": "\"81B9ED\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Travels\/TravelStats\/View\/TravelStatsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3206,
+      "offset": 3254,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Travels\/TravelStats\/View\/TravelStatsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3697,
+      "offset": 3745,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Travels\/TravelStats\/View\/TravelStatsViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 3767,
+      "offset": 3815,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Travels\/TravelStats\/View\/TravelStatsViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 3843,
+      "offset": 3891,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Travels\/TravelStats\/View\/TravelStatsViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 3921,
+      "offset": 3969,
       "length": 3,
       "value": "0.7"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Travels\/TravelStats\/View\/TravelStatsViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 3958,
+      "offset": 4006,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Travels\/TravelStats\/View\/TravelStatsViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 4150,
+      "offset": 4198,
       "length": 3,
       "value": "1.2"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Travels\/TravelStats\/View\/TravelStatsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4174,
+      "offset": 4222,
       "length": 3,
       "value": "180"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Travels\/TravelStats\/View\/TravelStatsViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 4280,
+      "offset": 4328,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Travels\/TravelStats\/View\/TravelStatsViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 4317,
+      "offset": 4365,
       "length": 3,
       "value": "0.4"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Travels\/TravelStats\/View\/TravelStatsViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 4461,
+      "offset": 4509,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Travels\/TravelStats\/View\/TravelStatsViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 4492,
+      "offset": 4540,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/Travels\/TravelStats\/View\/TravelStatsViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 4543,
+      "offset": 4591,
       "length": 3,
       "value": "0.3"
     },
@@ -26710,91 +26772,91 @@
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/SpendingOverview\/History\/ViewModel\/SpendingHistoryViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 1826,
+      "offset": 1849,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/SpendingOverview\/History\/ViewModel\/SpendingHistoryViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 1981,
+      "offset": 2027,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/SpendingOverview\/History\/ViewModel\/SpendingHistoryViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 2218,
+      "offset": 2264,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/SpendingOverview\/History\/ViewModel\/SpendingHistoryViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2400,
+      "offset": 2468,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/SpendingOverview\/History\/ViewModel\/SpendingHistoryViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2540,
+      "offset": 2630,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/SpendingOverview\/History\/ViewModel\/SpendingHistoryViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2802,
+      "offset": 2892,
       "length": 8,
       "value": "\"202B36\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/SpendingOverview\/History\/ViewModel\/SpendingHistoryViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2871,
+      "offset": 2961,
       "length": 8,
       "value": "\"F9FAFC\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/SpendingOverview\/History\/ViewModel\/SpendingHistoryViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2915,
+      "offset": 3005,
       "length": 61,
       "value": "\"Missing color for type: \""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/SpendingOverview\/History\/ViewModel\/SpendingHistoryViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2975,
+      "offset": 3065,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/SpendingOverview\/History\/ViewModel\/SpendingHistoryViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 3070,
+      "offset": 3160,
       "length": 32,
       "value": "\"spendingOverviewHistory_Income\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/SpendingOverview\/History\/ViewModel\/SpendingHistoryViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 3172,
+      "offset": 3262,
       "length": 33,
       "value": "\"spendingOverviewHistory_Expense\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/SpendingOverview\/History\/ViewModel\/SpendingHistoryViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 3712,
+      "offset": 3802,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Presentations\/UI\/Stories\/SpendingOverview\/History\/ViewModel\/SpendingHistoryViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 5329,
+      "offset": 5419,
       "length": 11,
       "value": "\"startDate\""
     },
