@@ -14,15 +14,19 @@
 @property(nonatomic, strong) NSString *languageCode;
 @property(nonatomic, strong) NSString *customerId;
 
-@property(nonatomic, strong) id <MoneyStoriesInterface> interface;
-@property(nonatomic, strong) StoryBarView *storyBar;
-@property(nonatomic, strong) NSString *callbackId;
+@property(nonatomic, strong) MoneyStoriesObjcInjector *objcInjector;
+@property(nonatomic, strong) StoryBarViewModelObjcInjector *viewModelObjcInjector;
+
+@property(nonatomic, strong) CDVInvokedUrlCommand *initializeSdkCommand;
+@property(nonatomic, strong) CDVInvokedUrlCommand *openStoriesCommand;
+@property(nonatomic, strong) CDVInvokedUrlCommand *refreshTokenCommand;
 
 @end
 
 @implementation MoneyStoriesPlugin
 
 - (void)initializeSdk:(CDVInvokedUrlCommand *)command {
+    self.initializeSdkCommand = command;
     NSDictionary *params = (NSDictionary *) command.arguments.firstObject;
     if (params == nil) {
         [self sendPluginResult:command status:CDVCommandStatus_ERROR message:@"Error: Missing input parameters"];
@@ -30,35 +34,20 @@
     }
 
     [self setupArgumentsToInitSDK:command dict:params];
+    self.objcInjector = [[MoneyStoriesObjcInjector alloc] init];
+    self.viewModelObjcInjector = [[StoryBarViewModelObjcInjector alloc] init];
+    [self.viewModelObjcInjector.injectedStoryBarViewModel setUpdateCompletion:^{
+        [self updateWithCommand:self.openStoriesCommand data:self.viewModelObjcInjector.injectedStoryBarViewModel.storyLines];
+    }];
 
-    MoneyStoriesObjcInjector *objcInjector = [[MoneyStoriesObjcInjector alloc] init];
-    self.interface = [objcInjector injectedMoneyStories];
-
-    ConfigBuilder *builder =
-            [
-                    [
-                            [
-                                    [[ConfigBuilder alloc] init]
-
-                                    withDebugEnabled
-                            ]
-
-                            withBaseUrl:[NSURL URLWithString:self.baseURL]
-                    ]
-
-                    withLanguageCode:self.languageCode
-            ];
-
-    [self.interface setupWithConfigBuilder:builder];
+    ConfigBuilder *builder = [[[[[ConfigBuilder alloc] init] withDebugEnabled] withBaseUrl:[NSURL URLWithString:self.baseURL]] withLanguageCode:self.languageCode];
+    [self.objcInjector.injectedMoneyStories setupWithConfigBuilder:builder];
 
     NSError *error;
     BearerToken *token = [[BearerToken alloc] initWithToken:self.accessToken error:&error];
-    [self.interface authenticateWithCredential:token];
+    [self.objcInjector.injectedMoneyStories authenticateWithCredential:token];
 
-    self.callbackId = command.callbackId;
-    self.storyBar = [[StoryBarView alloc] init];
-    self.storyBar.delegate = self;
-    [self.storyBar startLoading];
+    [self initStoryBarViewModel];
 
     if (error != nil) {
         [self sendPluginResult:command status:CDVCommandStatus_ERROR message:@"Error: Missing input parameters"];
@@ -66,42 +55,41 @@
 }
 
 - (void)openStories:(CDVInvokedUrlCommand *)command {
+    self.openStoriesCommand = command;
     NSDictionary *params = (NSDictionary *) command.arguments.firstObject;
+
+    if (![params[@"period"] isKindOfClass:[NSString class]] || ![params[@"date"] isKindOfClass:[NSString class]]) {
+        [self sendPluginResult:command status:CDVCommandStatus_ERROR message:@"Error: Missing input parameters"];
+        return;
+    }
 
     NSString *period;
     if ([params[@"period"] isKindOfClass:[NSString class]]) {
         period = params[@"period"];
-    } else {
-        [self sendPluginResult:command status:CDVCommandStatus_ERROR message:@"Error: Missing input parameters"];
-        return;
     }
 
     NSString *date;
     if ([params[@"date"] isKindOfClass:[NSString class]]) {
         date = params[@"date"];
-    } else {
-        [self sendPluginResult:command status:CDVCommandStatus_ERROR message:@"Error: Missing input parameters"];
-        return;
     }
 
-    BOOL isRead = NO;
-    if (params[@"read"] != nil) {
-        isRead = params[@"read"];
+    if ([period isEqualToString:@"MORE"]) {
+        [self.viewModelObjcInjector.injectedStoryBarViewModel openMore];
     } else {
-        [self sendPluginResult:command status:CDVCommandStatus_ERROR message:@"Error: Missing input parameters"];
-        return;
+        NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+        dateFormatter.dateFormat = @"yyyy-MM-dd";
+
+        for (MoneyStoriesStoryLine *storyLine in self.viewModelObjcInjector.injectedStoryBarViewModel.storyLines) {
+            if ([date isEqualToString:[dateFormatter stringFromDate:storyLine.getStartDate]] && [period isEqualToString:storyLine.getPeriodString]) {
+                [self.viewModelObjcInjector.injectedStoryBarViewModel openStoryLine:[self.viewModelObjcInjector.injectedStoryBarViewModel.storyLines indexOfObject:storyLine]];
+                break;
+            }
+        }
     }
-
-    NSLog(@"params more %@", params);
-    NSLog(@"period more %@", period);
-    NSLog(@"date more %@", date);
-    NSLog(@"isRead more %s", isRead ? "YES" : "NO");
-
-
-    [self.interface handleNotificationWithDate:date period:period isRead:isRead];
 }
 
 - (void)refreshToken:(CDVInvokedUrlCommand *)command {
+    self.refreshTokenCommand = command;
     NSString *token = (NSString *) command.arguments.firstObject;
 
     if (token == nil) {
@@ -111,7 +99,7 @@
 
     NSError *error;
     BearerToken *bearerToken = [[BearerToken alloc] initWithToken:token error:&error];
-    [self.interface authenticateWithCredential:bearerToken];
+    [self.objcInjector.injectedMoneyStories authenticateWithCredential:bearerToken];
 
     if (error != nil) {
         [self sendPluginResult:command status:CDVCommandStatus_ERROR message:@"Error: Missing input parameters"];
@@ -121,7 +109,6 @@
 - (void)setupArgumentsToInitSDK:(CDVInvokedUrlCommand *)command dict:(NSDictionary *)dict {
     if ([dict[@"baseUrl"] isKindOfClass:[NSString class]]) {
         NSString *baseURLString = dict[@"baseUrl"];
-
         if ([[baseURLString substringFromIndex:[baseURLString length] - 1] isEqualToString:@"/"]) {
             baseURLString = [baseURLString substringToIndex:[baseURLString length] - 1];
         }
@@ -163,37 +150,48 @@
     [self.commandDelegate sendPluginResult:result callbackId:command.callbackId];
 }
 
-- (void)storiesDidLoadWithStories:(NSArray
+- (void)initStoryBarViewModel {
+    [self.viewModelObjcInjector.injectedStoryBarViewModel initializeWithCompletion:^(BOOL success, NSError * _Nullable error) {
+        if (success && error == nil) {
+            [self getStoryLines];
+        }
+    }];
+}
 
-<MoneyStoriesStoryLine *> * _Nonnull)stories {
-    NSMutableArray *storiesArr = @[].mutableCopy;
-    NSDateFormatter *dateformatter = [[NSDateFormatter alloc] init];
+- (void)getStoryLines {
+    [self.viewModelObjcInjector.injectedStoryBarViewModel getStoryLinesWithCompletion:^(NSArray<MoneyStoriesStoryLine *> * _Nullable storyLines, NSError * _Nullable error) {
+        if (storyLines && error == nil) {
+            [self updateWithCommand:self.initializeSdkCommand data:storyLines];
+        } else {
+            [self sendPluginResult:self.initializeSdkCommand status:CDVCommandStatus_ERROR message:@"Error to retrieve the stories"];
+        }
+    }];
+}
 
-    dateformatter.dateFormat = @"yyyy-MM-dd";
-    for (MoneyStoriesStoryLine *storyline in stories) {
-        [storiesArr addObject:@{
-                @"startDate": [dateformatter stringFromDate:storyline.getStartDate],
-                @"read": [NSNumber numberWithBool:storyline.isRead],
-                @"period": storyline.getPeriodString
+- (void)updateWithCommand:(CDVInvokedUrlCommand *)command data:(NSArray<MoneyStoriesStoryLine *> * _Nonnull)storyLines {
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    dateFormatter.dateFormat = @"yyyy-MM-dd";
+
+    NSMutableArray *storiesArray = @[].mutableCopy;
+    for (MoneyStoriesStoryLine *storyLine in storyLines) {
+        [storiesArray addObject:@{
+            @"startDate": [dateFormatter stringFromDate:storyLine.getStartDate],
+            @"read": @(storyLine.isRead),
+            @"period": storyLine.getPeriodString
         }];
     }
 
     NSError *error;
-    NSData *jsonData = [NSJSONSerialization dataWithJSONObject:storiesArr options:NSJSONWritingPrettyPrinted error:&error];
+    NSData *jsonData = [NSJSONSerialization dataWithJSONObject:storiesArray options:NSJSONWritingPrettyPrinted error:&error];
     if (error != nil) {
         NSLog(@"NSJSONSerialization error: %@", [error localizedDescription]);
     }
 
     NSString *jsonString = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
+    jsonString = [jsonString stringByReplacingOccurrencesOfString:@"\n" withString:@""];
+    jsonString = [jsonString stringByReplacingOccurrencesOfString:@" " withString:@""];
 
-    CDVPluginResult *result = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsString:jsonString];
-    NSString *commandDelegateClassName = NSStringFromClass([self.commandDelegate class]);
-
-    NSLog(@"sending data about storybar className: %@", commandDelegateClassName);
-    NSLog(@"callbackId: %@", self.callbackId);
-    NSLog(@"sending data raw %@", storiesArr);
-
-    [self.commandDelegate sendPluginResult:result callbackId:self.callbackId];
+    [self sendPluginResult:command status:CDVCommandStatus_OK message:jsonString];
 }
 
 @end
