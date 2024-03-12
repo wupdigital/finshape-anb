@@ -8396,143 +8396,199 @@
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/DataFormatting\/Formatters\/AbbreviatedNumberFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 200,
+      "length": 22,
+      "value": "\"numberformatter_Kilo\""
+    },
+    {
+      "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/DataFormatting\/Formatters\/AbbreviatedNumberFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 246,
+      "length": 25,
+      "value": "\"numberformatter_Million\""
+    },
+    {
+      "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/DataFormatting\/Formatters\/AbbreviatedNumberFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 295,
+      "length": 25,
+      "value": "\"numberformatter_Billion\""
+    },
+    {
+      "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/DataFormatting\/Formatters\/AbbreviatedNumberFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 345,
+      "length": 26,
+      "value": "\"numberformatter_Trillion\""
+    },
+    {
+      "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/DataFormatting\/Formatters\/AbbreviatedNumberFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 200,
+      "length": 22,
+      "value": "\"numberformatter_Kilo\""
+    },
+    {
+      "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/DataFormatting\/Formatters\/AbbreviatedNumberFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 246,
+      "length": 25,
+      "value": "\"numberformatter_Million\""
+    },
+    {
+      "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/DataFormatting\/Formatters\/AbbreviatedNumberFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 295,
+      "length": 25,
+      "value": "\"numberformatter_Billion\""
+    },
+    {
+      "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/DataFormatting\/Formatters\/AbbreviatedNumberFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 345,
+      "length": 26,
+      "value": "\"numberformatter_Trillion\""
+    },
+    {
+      "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/DataFormatting\/Formatters\/AbbreviatedNumberFormatter.swift",
       "kind": "BooleanLiteral",
-      "offset": 265,
+      "offset": 543,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/DataFormatting\/Formatters\/AbbreviatedNumberFormatter.swift",
       "kind": "IntegerLiteral",
-      "offset": 311,
+      "offset": 589,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/DataFormatting\/Formatters\/AbbreviatedNumberFormatter.swift",
       "kind": "IntegerLiteral",
-      "offset": 355,
+      "offset": 633,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/DataFormatting\/Formatters\/AbbreviatedNumberFormatter.swift",
       "kind": "IntegerLiteral",
-      "offset": 399,
+      "offset": 677,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/DataFormatting\/Formatters\/AbbreviatedNumberFormatter.swift",
       "kind": "IntegerLiteral",
-      "offset": 838,
+      "offset": 1116,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/DataFormatting\/Formatters\/AbbreviatedNumberFormatter.swift",
       "kind": "StringLiteral",
-      "offset": 863,
+      "offset": 1141,
       "length": 10,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/DataFormatting\/Formatters\/AbbreviatedNumberFormatter.swift",
       "kind": "StringLiteral",
-      "offset": 872,
+      "offset": 1150,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/DataFormatting\/Formatters\/AbbreviatedNumberFormatter.swift",
       "kind": "IntegerLiteral",
-      "offset": 890,
+      "offset": 1168,
       "length": 9,
       "value": "1000000"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/DataFormatting\/Formatters\/AbbreviatedNumberFormatter.swift",
       "kind": "IntegerLiteral",
-      "offset": 923,
+      "offset": 1201,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/DataFormatting\/Formatters\/AbbreviatedNumberFormatter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1271,
+      "length": 13,
+      "value": "1000000000"
+    },
+    {
+      "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/DataFormatting\/Formatters\/AbbreviatedNumberFormatter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1308,
+      "length": 9,
+      "value": "1000000"
+    },
+    {
+      "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/DataFormatting\/Formatters\/AbbreviatedNumberFormatter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1386,
+      "length": 17,
+      "value": "1000000000000"
+    },
+    {
+      "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/DataFormatting\/Formatters\/AbbreviatedNumberFormatter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1427,
+      "length": 13,
+      "value": "1000000000"
+    },
+    {
+      "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/DataFormatting\/Formatters\/AbbreviatedNumberFormatter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1532,
+      "length": 17,
+      "value": "1000000000000"
+    },
+    {
+      "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/DataFormatting\/Formatters\/AbbreviatedNumberFormatter.swift",
       "kind": "StringLiteral",
-      "offset": 949,
+      "offset": 1764,
+      "length": 10,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/DataFormatting\/Formatters\/AbbreviatedNumberFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 1773,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/DataFormatting\/Formatters\/AbbreviatedNumberFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 2103,
       "length": 3,
       "value": "\"k\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/DataFormatting\/Formatters\/AbbreviatedNumberFormatter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 969,
-      "length": 13,
-      "value": "1000000000"
-    },
-    {
-      "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/DataFormatting\/Formatters\/AbbreviatedNumberFormatter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1006,
-      "length": 9,
-      "value": "1000000"
-    },
-    {
-      "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/DataFormatting\/Formatters\/AbbreviatedNumberFormatter.swift",
       "kind": "StringLiteral",
-      "offset": 1037,
+      "offset": 2167,
       "length": 3,
       "value": "\"M\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/DataFormatting\/Formatters\/AbbreviatedNumberFormatter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1057,
-      "length": 17,
-      "value": "1000000000000"
-    },
-    {
-      "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/DataFormatting\/Formatters\/AbbreviatedNumberFormatter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1098,
-      "length": 13,
-      "value": "1000000000"
-    },
-    {
-      "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/DataFormatting\/Formatters\/AbbreviatedNumberFormatter.swift",
       "kind": "StringLiteral",
-      "offset": 1133,
+      "offset": 2231,
       "length": 3,
       "value": "\"B\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/DataFormatting\/Formatters\/AbbreviatedNumberFormatter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1176,
-      "length": 17,
-      "value": "1000000000000"
-    },
-    {
-      "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/DataFormatting\/Formatters\/AbbreviatedNumberFormatter.swift",
       "kind": "StringLiteral",
-      "offset": 1215,
+      "offset": 2296,
       "length": 3,
       "value": "\"T\""
-    },
-    {
-      "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/DataFormatting\/Formatters\/AbbreviatedNumberFormatter.swift",
-      "kind": "StringLiteral",
-      "offset": 1380,
-      "length": 10,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Utility\/DataFormatting\/Formatters\/AbbreviatedNumberFormatter.swift",
-      "kind": "StringLiteral",
-      "offset": 1389,
-      "length": 1,
-      "value": "\"\""
     },
     {
       "filePath": "\/Users\/adam.domonkos\/_work\/finshape\/anb\/ANB Money Stories\/MoneyStories\/Data\/UseCases\/SetReadStoryLineUseCase.swift",

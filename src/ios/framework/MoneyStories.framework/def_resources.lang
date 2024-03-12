@@ -173,3 +173,7 @@ expectationsCashOutFlow_WeeklySpentLess=You spent less in {{periodDate|fullMonth
 expectationsCashOutFlow_WeeklySpentSignificantLess=You spent {{diffPercent|percent}} less in {{periodDate|fullMonth}}
 expectationsCashOutFlow_Expected=expected spending
 expectationsCashOutFlow_Actual=actual
+numberformatter_Kilo=k
+numberformatter_Million=M
+numberformatter_Billion=B
+numberformatter_Trillion=T
