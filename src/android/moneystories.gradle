@@ -69,4 +69,4 @@ dependencies {
 }
 
 // Changing compileSdkVersion to use in MoneyStories
-ext.cdvSdkVersion = 31
+ext.cdvSdkVersion = 34
