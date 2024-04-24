@@ -67,6 +67,3 @@ dependencies {
     implementation files("libs/moneystories-anb-release.aar")
     implementation files("libs/api-gateway-api-android-1.13.2.aar")
 }
-
-// Changing compileSdkVersion to use in MoneyStories
-ext.cdvSdkVersion = 33
