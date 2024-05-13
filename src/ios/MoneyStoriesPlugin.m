@@ -154,6 +154,8 @@
     [self.viewModelObjcInjector.injectedStoryBarViewModel initializeWithCompletion:^(BOOL success, NSError * _Nullable error) {
         if (success && error == nil) {
             [self getStoryLines];
+        } else {
+            [self sendPluginResult:self.initializeSdkCommand status:CDVCommandStatus_ERROR message:@"Error to load the stories"];
         }
     }];
 }
