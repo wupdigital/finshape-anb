@@ -276,5 +276,4 @@ public class MoneyStoriesPlugin extends CordovaPlugin {
     }
 
     // TODO: Feature test
-    // TODO: Feature test
 }
