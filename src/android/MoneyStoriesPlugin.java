@@ -274,6 +274,4 @@ public class MoneyStoriesPlugin extends CordovaPlugin {
                                      AppContainer.Companion.getInstance().getDeviceInfoModule().getGetDeviceInfoAnalyticsDataUseCase(),
                                      AppContainer.Companion.getInstance().getAnalyticsModule().getStoreAnalyticsDataUseCase());
     }
-
-    // TODO: Feature test
 }
